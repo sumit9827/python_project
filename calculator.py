@@ -15,6 +15,7 @@ calc_op = {
     "/": divide
 }
 def calulator():
+    print("new change")
     num1 = float(input("Enter the first number: "))
     for i in calc_op:
         print(i)
